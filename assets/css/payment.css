@@ -1,0 +1,22 @@
+.PAYS{
+    transform: .3s;
+}
+.PAY:hover{
+    transform: translateY(-.5rem);
+    /* transform: scale(1.1); */
+}
+.img-2{
+    width: 498px;
+    border-radius: 10px 10px 0 0;
+}
+
+@media screen and (max-width: 576px) {
+    .img-2{
+        width: 302px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .img-2{
+        width: 302px;
+    }
+}

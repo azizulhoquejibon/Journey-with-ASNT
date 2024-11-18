@@ -1,0 +1,13 @@
+.sv-img{
+    width: 70px;
+    padding: 5px;
+    transform: .3s;
+}
+.card-body:hover .sv-img{
+    transform: translateY(-.5rem);
+}
+@media screen and (max-width: 767px) {
+    main{
+        text-align: center;
+    }
+}
